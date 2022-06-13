@@ -1,0 +1,17 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);  
+}
+
+.product-container{
+    padding-left: 40px;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-column-gap: 10px;
+    background-color: brown;
+}
+
+.order-container{
+    padding-left: 40px;
+    background-color: blueviolet;
+}
